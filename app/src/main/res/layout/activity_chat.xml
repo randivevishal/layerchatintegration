@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/tvChatMessages"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <com.layer.atlas.AtlasAddressBar
+        android:id="@+id/address_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.layer.atlas.AtlasConversationsRecyclerView
+        android:id="@+id/conversations_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        />
+
+    <com.layer.atlas.AtlasMessagesRecyclerView
+        android:id="@+id/messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+    <com.layer.atlas.AtlasMessageComposer
+        android:id="@+id/message_composer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cell_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:textSize="@dimen/atlas_text_size_message_item"/>
+
+    <RelativeLayout
+            android:id="@+id/rlShorLinkPreviewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/ivLinkImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_cancel_white_24dp"/>
+
+        <TextView
+            android:id="@+id/tvLinkTitle"
+            android:layout_toRightOf="@+id/ivLinkImage"
+            android:layout_width="wrap_content"
+            android:text="BabyChakra"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/atlas_text_size_message_item"/>
+
+        <TextView
+            android:id="@+id/tvLinkDesc"
+            android:layout_toRightOf="@+id/ivLinkImage"
+            android:layout_below="@+id/tvLinkTitle"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BabyChakra If you saaameeellll the rock is cooking"
+            android:textSize="@dimen/atlas_text_size_message_item"/>
+
+    </RelativeLayout>
+
+
+</merge>

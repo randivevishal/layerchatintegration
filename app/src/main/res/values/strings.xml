@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LayerChatIntegration</string>
+
+
+    <string name="alert_message_delete_message">Delete message?</string>
+    <string name="alert_message_delete_conversation">Delete conversation?</string>
+
+
+    <string name="alert_message_resuming">Resuming Session</string>
+
+    <string name="alert_button_cancel">Cancel</string>
+    <string name="alert_button_delete_my_devices">For Me</string>
+    <string name="alert_button_delete_all_participants">From All</string>
+    <string name="alert_button_remove">Remove</string>
+    <string name="alert_button_block">Block</string>
+    <string name="alert_button_unblock">Unblock</string>
+    <string name="alert_button_logout">Log Out</string>
+
+
+
+    <string name="attachment_menu_camera">Camera</string>
+    <string name="attachment_menu_gallery">Gallery</string>
+    <string name="attachment_menu_location">Location</string>
+
+
+    <string name="notifications_num_more">+%1$d more</string>
+    <string name="notifications_new_messages">%1$s new messages</string>
+
+    <string name="title_select_conversation">New Message</string>
+</resources>
